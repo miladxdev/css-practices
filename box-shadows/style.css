@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background: #fafafa;
+    font-family: '@microsoft YaHei UI Light';
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    padding: 100px 0;
+    background: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 
+        rgba(50, 50, 93, 0.55) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.4) 0px 30px 60px -30px;
+}
